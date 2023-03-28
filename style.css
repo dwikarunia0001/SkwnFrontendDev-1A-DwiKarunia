@@ -28,7 +28,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 46px 100px;
+    padding: 20px 100px;
     background: #FFFFFF;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.02);
 }
@@ -71,7 +71,7 @@ header {
 }
 /* header style */
 main {
-   margin-top: 140px;
+   margin-top: 90px;
 }
 /* hero style */
 .hero {
@@ -129,7 +129,7 @@ main {
 
 .hero-product {
     width: 35%;
-    height: 500px;
+    height: 510px;
     background-image: url(image/hero.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -361,3 +361,49 @@ img .recB {
     font-size: 24px;
 }
 /* best-seller style*/
+
+/* newsletter style */
+
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 80px 142px;
+    gap: 42px;
+    color: var(--dark-brown);
+    background: #FCFAFA;
+}
+
+.newsletter p {
+    font-size: 24px;
+}
+
+.newsletter h1 {
+    font-weight: 700;
+    font-size: 64px;
+}
+
+input {
+    outline: none;
+    border: none;
+    padding: 22px 36px;
+    background-color: #FFFFFF;
+    font-size: 24px;
+}
+
+.bx-envelope {
+    padding: 22px 36px;
+    background-color: var(--yellow);
+    margin-left: -3px;
+    font-size: 24px;
+}
+/* newsletter style */
+
+/* footer */
+
+footer {
+    padding: 80px 100px;
+
+}
+
+/* footer */
