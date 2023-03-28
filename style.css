@@ -403,7 +403,44 @@ input {
 
 footer {
     padding: 80px 100px;
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
+.frame-1 {
+    width: 504px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: start;
+}
+
+.frame-1 img {
+    width: 97.26px;
+    height: 29px;
+}
+
+.frame-1 p {
+    font-size: 16px;
+}
+
+.frame-2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 54px;
+}
+
+.frame-2 h6 {
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.frame-2 p {
+    font-size: 16px;
+    color: #667085;
+    margin-bottom: 30px;
+}
 /* footer */
