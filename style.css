@@ -166,3 +166,39 @@ main {
 }
 
 /* hero style */
+
+/* us style */
+.us {
+    padding: 72px 0px 72px 142px;
+    background: var(--dark-brown);
+    color: var(--yellow);
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    font-size: 24px;
+}
+
+.us h1 {
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.us-features {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.us-features span {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.us-features div {
+    gap: 16px;
+    padding: 8px;
+    background: rgba(229, 240, 182, 0.5);
+    border-radius: 8px;
+}
+/* us style */
