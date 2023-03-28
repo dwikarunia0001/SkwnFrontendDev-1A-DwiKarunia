@@ -1,6 +1,67 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=Rubik&display=swap');
 
 *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
     font-family: 'Inter', sans-serif;
     font-family: 'Rubik', sans-serif;
 }
+
+:root{
+    --text-color: #000000;
+    --yellow: #E5F0B6;
+    --dark-yellow: #817253;
+    --light-brown: #553B33;
+    --dark-brown: #2F241F;
+    --trasparent: #E5F0B680;
+}
+
+/* header style */
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 46px 100px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.02);
+}
+
+.logo {
+    width: 160.98px;
+    height: 48px;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 64px;
+}
+
+.nav-menu li a {
+    color: var(--text-color);
+}
+
+.nav-button {
+    display: flex;
+    gap: 32px;
+}
+
+.sign-up {
+    color: var(--dark-brown);
+    background-color: var(--yellow);
+    padding: 12px 24px;
+    border-radius: 8px;
+}
+
+.note {
+    background-color: var(--light-brown);
+    padding: 12px 24px;
+    border-radius: 8px;
+}
+/* header style */
