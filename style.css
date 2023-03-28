@@ -202,3 +202,35 @@ main {
     border-radius: 8px;
 }
 /* us style */
+
+/*partnerships style */
+
+.partner {
+    height: 305px;
+    background: #FCFAFA;
+    padding: 80px 142px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.partner-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.partner-text h1 {
+    font-weight: 700;
+    font-size: 96px;
+}
+
+.partner-logo {
+    display: flex;
+    gap: 88px;
+}
+
+.partner-logo img {
+    width: 106.17px;
+    height: 52px;
+}
+/*partnerships style */
